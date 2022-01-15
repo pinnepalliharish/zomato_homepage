@@ -1,0 +1,311 @@
+body{
+    margin: 0px;
+    margin-top:1px;
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+}
+#coupon{
+    height: 300px;
+    width: 550px;
+    margin-left: 35%;
+    z-index:100;
+    background-color: azure;
+    position:absolute;
+    margin-top: 250px;
+}
+.login_create{
+    margin-top: 8px;
+    height: 50px;
+    width: 380px;
+    float: right;
+    color: whitesmoke;
+    font-size: 23px;
+}
+.login_create>a{
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+}
+.create_Account{
+    margin-left: 10px;
+    border: 2px white solid;
+    text-decoration: none;
+}
+.search_box{
+    height: 400px;
+    width: 100%;
+    background-image:url('images/food_main2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    z-index: 0;
+}
+.symbol{
+    height:130px;
+    width: 130px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 20px;
+    margin-left:44%;
+    position: absolute;
+}
+
+.symbol:hover{
+    background-color: black;
+}
+.symbol>h1{
+    margin-bottom: 12px;
+    position: absolute;
+    font-size:100px;
+    margin-left: 26px;    
+    color: black;
+}
+.symbol>h1:hover{
+    color: white;
+}
+
+.heading{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    font-size:50px;
+    margin-left: 280px;
+    margin-top: 170px;
+    color:whitesmoke;
+}
+.dropdown{
+    height: 50px;
+    width: 600px;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 520px
+}
+
+select{
+    text-align: center;
+    height: 50px;
+    width: 240px;
+}
+select:hover{
+    color: aliceblue;
+    background-color: black;
+}
+
+
+@media screen and (max-width :1350px) {
+    .symbol{
+        height:100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: white;
+        margin-top: 50px;
+        margin-left:44%;
+        position: absolute;
+    }
+    .symbol:hover{
+        background-color: black;
+    }
+    .symbol>h1{
+        margin-top: 13px;
+        position: absolute;
+        font-size:60px;
+        margin-left: 28px;    
+        color: black;
+    }
+    .symbol>h1:hover{
+        color: white;
+    }
+    .heading{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        position: absolute;
+        font-size:50px;
+        margin-left: 100px;
+        margin-top: 190px;
+        color:whitesmoke;
+    }
+    .dropdown{
+        height: 60px;
+        width: 400px;
+        position: absolute;
+        margin-top: 300px;
+        margin-left: 400px
+    }
+    select{
+        text-align: center;
+        height: 30px;
+        width: 150px;
+    }
+    select:hover{
+        color: aliceblue;
+        background-color: black;
+    }
+}
+@media  screen and (max-width:970px) {
+    .heading{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        position: absolute;
+        font-size:40px;
+        margin-left: 25px;
+        margin-top: 190px;
+        color:whitesmoke;
+    }
+    .dropdown{
+        height: 60px;
+        width: 400px;
+        position: absolute;
+        margin-top: 300px;
+        margin-left: 300px
+    }
+}
+@media  screen and (max-width:640px) {
+    .heading{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        position: absolute;
+        font-size:28px;
+        margin-left: 20px;
+        margin-top: 190px;
+        color:whitesmoke;
+    }
+    .dropdown{
+        height: 60px;
+        width: 400px;
+        position: absolute;
+        margin-top: 300px;
+        margin-left: 170px
+    }
+}
+
+.title{
+    margin-top: 20px;
+    height: 80px;
+    width:100%;
+}
+.title>h2{
+    margin-left: 5px;
+}
+.title>h4{
+    margin-left: 5px;
+}
+.menu{
+    height: 430px;
+    width: 100%;
+    margin-top: 20px;
+    border: 2px solid green;
+}
+.meal{
+    margin-top: 10px;
+    margin-left:5px;
+    margin-bottom: 20px;
+    height: 170px;
+    width: 100%;
+    float: left;
+    box-shadow: 1px 1px 1px grey;
+}
+
+.meal:hover{
+    /* background-color: white; */
+    transform: scale(1.1);
+}
+.meal>img{
+    height: 170px;
+    width: 45%;
+    float: left;
+    margin-right: 15px;
+}
+.meal>h3{
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.meal>h6{
+    color: gray;
+    font-size: 15px;
+}
+
+
+@media screen and (max-width:580px) {
+
+    .search_box{
+        height: 400px;
+        width: 100%;
+        background-image:url('images/food_main2.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 400px;
+    }
+    .login_create{
+        margin-top: 8px;
+        height: 50px;
+        width: 210px;
+        float: right;
+        color: whitesmoke;
+        font-size: 23px;
+    }
+    
+    .symbol{
+        height:100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: white;
+        margin-top: 50px;
+        margin-left:44%;
+        position: absolute;
+    }
+    .symbol:hover{
+        background-color: black;
+    }
+    .symbol>h1{
+        margin-top: 13px;
+        position: absolute;
+        font-size:60px;
+        margin-left: 28px;    
+        color: black;
+    }
+    .symbol>h1:hover{
+        color: white;
+    }
+    .heading{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        position: absolute;
+        font-size:22px;
+        margin-left: 15px;
+        margin-top: 190px;
+        color:whitesmoke;
+    }
+    .dropdown{
+        height: 50px;
+        width: 400px;
+        position: absolute;
+        margin-top: 280px;
+        margin-left: 100px
+    }
+    select{
+        text-align: center;
+        height: 30px;
+        width: 150px;
+    }
+    select:hover{
+        color: aliceblue;
+        background-color: black;
+    }
+    .title{
+        margin-top: 20px;
+        height: 70px;
+        width:100%;
+    }
+    .title>h2{
+        margin-left: 10px;
+    }
+    .title>h4{
+        margin-left: 10px;
+    }
+    
+    .meal{
+        color: black;
+        margin-top: 10px;
+        margin-left:10px;
+        margin-bottom: 20px;
+        height: 170px;
+        width: 100%;
+        float: left;
+        box-shadow: 1px 1px 1px grey;
+    }
+}

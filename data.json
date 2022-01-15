@@ -1,0 +1,86 @@
+{
+    "city":[
+        {
+            "id":1,
+            "city_name":"Hyderabad"
+        },
+        {
+            "id":2,
+            "city_name":"Bangalore"
+        },
+        {
+            "id":3,
+            "city_name":"Mumbai"
+        },
+        {
+            "id":4,
+            "city_name":"Ahmedabad"
+        },
+        {
+            "id":5,
+            "city_name":"Delhi"
+        },
+        {
+            "id":6,
+            "city_name":"Coimbatore"
+        }
+    ],
+    "restaurants":[
+        {
+            "id":1,
+            "name":"SoutherLand Restaurant",
+            "city_id":1
+        },
+        {
+            "id":2,
+            "name":"Bidri Restaurant",
+            "city_id":1
+        },
+        {
+            "id":3,
+            "name":"Holy Basil Restaurant",
+            "city_id":1
+        },
+        {
+            "id":4,
+            "name":"Bikanerwala",
+            "city_id":1
+        },
+        {
+            "id":5,
+            "name":"Karavali",
+            "city_id":2
+        },
+        {
+            "id":6,
+            "name":"Spice Terrace",
+            "city_id":2
+        },
+        {
+            "id":7,
+            "name":"RJ19 Kitchen",
+            "city_id":2
+        },
+        {
+            "id":8,
+            "name":"Lantern Restaurant",
+            "city_id":2
+        },
+        
+        {
+            "id":8,
+            "name":"Saptami Restaurant",
+            "city_id":3
+        },
+        {
+            "id":9,
+            "name":"Namak - Indian Specialty Restaurant",
+            "city_id":3
+        },
+        {
+            "id":9,
+            "name":"Mehfil Restaurant",
+            "city_id":3
+        }
+    ]
+}
