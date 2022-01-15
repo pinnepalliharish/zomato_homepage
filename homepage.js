@@ -36,11 +36,6 @@ const getRestaurant = () =>{
 
 
 
-
-
-
-
-
 function CloseDiv(){
     document.getElementById('coupon').style.visibility="hidden"
 }

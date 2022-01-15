@@ -1,8 +1,13 @@
 body{
     margin: 0px;
-    margin-top:1px;
     background-color: whitesmoke;
     margin-bottom: 10px;
+}
+#start_box{
+    height: 50px;
+    width: 100%;
+    color: white;
+    background-color: rgb(253, 68, 68);
 }
 #coupon{
     height: 300px;
@@ -49,14 +54,14 @@ body{
 }
 
 .symbol:hover{
-    background-color: black;
+    background-color: red;
 }
 .symbol>h1{
     margin-bottom: 12px;
     position: absolute;
     font-size:100px;
     margin-left: 26px;    
-    color: black;
+    color: red;
 }
 .symbol>h1:hover{
     color: white;
