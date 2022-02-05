@@ -1,5 +1,5 @@
-let url = "http://localhost:5555/city";
-let restaurantUrl = "http://localhost:5555/restaurants?city_id=";
+let url = "http://localhost:2222/city";
+let restaurantUrl = "http://localhost:2222/restaurants?city_id=";
 function getCity(){
     fetch(url)
     .then((res) => (res.json()))

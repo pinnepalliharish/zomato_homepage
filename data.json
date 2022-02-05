@@ -19,10 +19,6 @@
         {
             "id":5,
             "city_name":"Delhi"
-        },
-        {
-            "id":6,
-            "city_name":"Coimbatore"
         }
     ],
     "restaurants":[
@@ -68,19 +64,64 @@
         },
         
         {
-            "id":8,
+            "id":9,
             "name":"Saptami Restaurant",
             "city_id":3
         },
         {
-            "id":9,
+            "id":10,
             "name":"Namak - Indian Specialty Restaurant",
             "city_id":3
         },
         {
-            "id":9,
+            "id":11,
             "name":"Mehfil Restaurant",
             "city_id":3
-        }
+        },
+        {
+            "id":12,
+            "name":"Ziya Restaurant",
+            "city_id":3
+        },
+        {
+            "id":13,
+            "name":"650 - The Global Kitchen",
+            "city_id":4
+        },
+        {
+            "id":14,
+            "name":"Kuro - The Asian Bistro, Renaissance Ahmedabad",
+            "city_id":4
+        },
+        {
+            "id":15,
+            "name":"Earthen Oven",
+            "city_id":4
+        },
+        {
+            "id":16,
+            "name":"Ashray The Restaurant",
+            "city_id":4
+        },
+        {
+            "id":17,
+            "name":"Leo's Pizzeria.",
+            "city_id":5
+        },
+        {
+            "id":18,
+            "name":"Bukhara",
+            "city_id":5
+        },
+        {
+            "id":19,
+            "name":"Rajinder De Dhaba",
+            "city_id":5
+        },
+        {
+            "id":20,
+            "name":"Olive Bar & Kitchen.",
+            "city_id":5
+        }  
     ]
 }
